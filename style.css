@@ -7,7 +7,7 @@ body {
 
 .container {
     width: 500px;
-    height: 520px;
+    height: 1000px;
     background-color: #FFFFFF;
     border-radius: 10px;
 }
@@ -24,47 +24,47 @@ header {
     flex-direction:column;
 }
 
-.headingtext {
+.headingText {
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
 }
 
-.headingtextsub {
+.headingTextSub {
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
 }
 
-.bodybox {
+.bodyBox {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.makelottobox {
+.makeNumBox {
     width: 460px;
     height: 150px;
     margin-top: 20px;
 }
 
-.buylottobox {
+.buyLottoBox {
     width: 460px;
     height: 200px;
     border-top: 1px solid #EEEEEE;
     margin-top: 30px;
 }
 
-.makenumtext {
+.makeNumText {
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
 
-.circlebox {
+.circleBox {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -73,7 +73,7 @@ header {
 }
 
 
-.circlebox span {
+.circle{
     display: flex;
     width: 45px;
     height: 45px;
@@ -87,27 +87,27 @@ header {
     font-size: 20px;
 }
 
-.circle1 {
+#circle1, #resultNum1, #myNum1 {
     background-color: #FBC400;
 }
 
-.circle2 {
+#circle2, #resultNum2, #myNum2 {
     background-color: #69C8F2;
 }
 
-.circle3 {
+#circle3, #resultNum3, #myNum3 {
     background-color: #FF7272;
 }
 
-.circle4 {
+#circle4, #resultNum4, #myNum4 {
     background-color: #AAAAAA;
 }
 
-.circle5 {
+#circle5, #resultNum5, #myNum5 {
     background-color: #B0D840;
 }
 
-.circle6 {
+#circle6, #resultNum6, #myNum6 {
     background-color: #FBC400;
 }
 
@@ -118,13 +118,13 @@ button {
     border-radius: 5px;
     font-weight: 700;
     font-size: 16px;
-    background-color: #A0B3E0;
+    background-color: #4B89DC;
     color: #FFFFFF;
     border-width: 0px ;
     margin-top: 20px;
 }
 
-.buylottotext {
+.buyLottoText {
     display: block;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
@@ -132,13 +132,13 @@ button {
     margin-top: 20px;
 }
 
-.inputbox {
+.inputBox {
     width: 100%;
     height: 40px;
     margin-top: 15px;
 }
 
-.buyamounttext {
+.buyAmountText {
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -154,7 +154,7 @@ input {
     border-radius: 4px;
 }
 
-.totaltext {
+.totalText {
     display: block;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 400;
@@ -162,6 +162,68 @@ input {
     margin-top: 10px;
 }
 
-.buylottobox button {
-    background-color: #4B89DC;
+.resultBox {
+    display: flex;
+    width: 460px;
+    height: 460px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultCheckBox {
+    display: flex;
+    width: 430px;
+    height: 180px;
+    flex-direction: column;
+}
+
+.resultCheckBoxText {
+    display: block;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.thisWeekResultText {
+    display: block;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.myNumText {
+    display: block;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.myNumBox {
+    display: flex;
+    width: 430px;
+    height: 125px;
+    flex-direction: column;
+}
+
+.lottoResultBox {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #e8f4fd;
+    border-radius: 5px;
+}
+
+.lottoResultText {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }

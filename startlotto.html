@@ -12,30 +12,58 @@
 <body>
     <div class="container">
         <header>
-            <span class="headingtext">로또 번호 생성기</span>
-            <span class="headingtextsub">행운의 번호를 생성해보세요!</span>
+            <span class="headingText">로또 번호 생성기</span>
+            <span class="headingTextSub">행운의 번호를 생성해보세요!</span>
         </header>
-        <div class="bodybox">
-            <div class="makelottobox">
-                <span class="makenumtext">번호 생성</span>
-                <div class="circlebox">
-                    <span class="circle1">?</span>
-                    <span class="circle2">?</span>
-                    <span class="circle3">?</span>
-                    <span class="circle4">?</span>
-                    <span class="circle5">?</span>
-                    <span class="circle6">?</span>
+        <div class="bodyBox">
+            <div class="makeNumBox">
+                <span class="makeNumText">번호 생성</span>
+                <div class="circleBox">
+                    <span class="circle" id="circle1">?</span>
+                    <span class="circle" id="circle2">?</span>
+                    <span class="circle" id="circle3">?</span>
+                    <span class="circle" id="circle4">?</span>
+                    <span class="circle" id="circle5">?</span>
+                    <span class="circle" id="circle6">?</span>
                 </div>
-                <button>번호 생성하기</button>
+                <button id="makeNumButton">번호 생성하기</button>
             </div>
-            <div class="buylottobox">
-                <span class="buylottotext">로또 구매하기</span>
-                <div class="inputbox">
-                    <span class="buyamounttext">구매 수량:</span>
+            <div class="buyLottoBox">
+                <span class="buyLottoText">로또 구매하기</span>
+                <div class="inputBox">
+                    <span class="buyAmountText">구매 수량:</span>
                     <input>
                 </div>
-                <span class="totaltext">총 금액: 0원 (1장당 1,000원)</span>
-                <button>구매하기</button>
+                <span class="totalText">총 금액: <span id="price">0</span>원 (1장당 1,000원)</span>
+                <button id="buyLottoButton">구매하기</button>
+            </div>
+            <div class="resultBox">
+                <div class="resultCheckBox">
+                    <span class="resultCheckBoxText">당첨 결과 확인</span>
+                    <span class="thisWeekResultText">이번 주 당첨 번호:</span>
+                    <div class="circleBox">
+                        <span class="circle" id="resultNum1">?</span>
+                        <span class="circle" id="resultNum2">?</span>
+                        <span class="circle" id="resultNum3">?</span>
+                        <span class="circle" id="resultNum4">?</span>
+                        <span class="circle" id="resultNum5">?</span>
+                        <span class="circle" id="resultNum6">?</span>
+                    </div>
+                    <span class="myNumText">내가 구매한 번호:</span>
+                </div>
+                <div class="myNumBox">
+                    <div class="circleBox">
+                        <span class="circle" id="myNum1">?</span>
+                        <span class="circle" id="myNum2">?</span>
+                        <span class="circle" id="myNum3">?</span>
+                        <span class="circle" id="myNum4">?</span>
+                        <span class="circle" id="myNum5">?</span>
+                        <span class="circle" id="myNum6">?</span>
+                    </div>
+                    <div class="lottoResultBox">
+                        <span class="lottoResultText">결과:</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
